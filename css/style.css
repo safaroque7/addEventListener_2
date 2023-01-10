@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ds_block{
+  display: block !important;
+}
+.header_part {
+  background: blue;
+  color: #fff;
+  padding: 10px;
+}
+.header_part {
+  display: flex;
+}
+.header_part_left {
+  margin-right: 15px;
+}
+.header_part_left h2 {
+  font-size: 25px;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.body_part {
+  display: flex;
+}
+.body_part_left {
+  width: 15%;
+  height: 94vh;
+  background: #555;
+  position: relative;
+}
+.body_part_right {
+  width: 85%;
+  height: 94vh;
+  background: #9999;
+}
+.menu_list_item_icon,
+.menu_list ul li a {
+  display: block;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+.onOff {
+  display: none !important;
+}
+.offOn {
+  display: block !important;
+}
+.new_width {
+  width: 100%;
+}
+div#left_side_bar,
+div#right_sidebar_id {
+  padding: 10px 15px;
+}
+.menu_list ul {
+  list-style: none;
+  padding-left: 0;
+}
+.active_button {
+  background: red;
+}
+.menu_list ul li {
+  display: flex;
+  justify-content: stretch;
+}
+.with_auto {
+  width: auto;
+}
+img {
+  max-width: 100%;
+}
+.header_signout,
+.your_profile_image {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  bottom: 0;
+  cursor: pointer;
+  position: relative;
+}
+.your_profile_image {
+  position: absolute;
+}
+.sign_out_option {
+  position: absolute;
+  bottom: 15px;
+}
+
+.signout_box {
+  min-width: 110px;
+  height: auto;
+  background: #222;
+  color: #fff;
+  overflow: hidden;
+  position: absolute;
+  bottom: 24px;
+  left: 38px;
+  padding: 5px;
+  display: none;
+  box-shadow: 3px 2px 13px #fff;
+}
+
+.signout_box ul {
+  list-style: none;
+  padding-left: 0;
+}
+.signout_box ul li {
+  border-bottom: 0.25px solid #fff;
+}
+.signout_box ul li:last-child {
+  border-bottom: 0;
+}
+
+.signout_box ul li a {
+  font-size: 19px;
+  padding: 10px;
+  text-align: -webkit-auto;
+  display: block;
+  color: wheat;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.sign_out_option_pos {
+  position: relative;
+}
+.header_part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg_red {
+  background: red;
+}
+.menu_list ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_list ul li .sub_menu_item {
+  margin-left: 24px;
+  background: #333;
+  box-shadow: 1px 2px 9px #fff;
+  margin-bottom: 21px;
+  display: none;
+}
+
+.main_menu_item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.active_menu {
+  background: #222;
+}
+
+input#text_vl {
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+div#result {
+  width: 100%;
+  background: red;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 62px;
+  height: auto;
+}
+
+div#right_sidebar_id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main_ad_box {
+  width: 100wh;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+.ad_close_button {
+  position: relative;
+}
+.close {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: black;
+  top: -22px;
+  right: -22px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ad h1 {
+  cursor: pointer;
+}
+
+.pop_up_ad{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.75);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+  visibility: hidden;
+}
+
+.vVisible{
+  visibility: visible;
+}
+.unVisible{
+  visibility: hidden;
+}
+
+.ad_box_close{
+  position: relative;
+}
+
+.ad_box{}
+
+.close_sign{
+  position: absolute;
+  top: -35px;
+  right: -35px;
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.close_sign:hover{
+  background: red;
+  transform: scale(1.25);
+}
