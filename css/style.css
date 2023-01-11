@@ -247,7 +247,7 @@ div#right_sidebar_id {
 
 .ad_box{}
 
-.close_sign{
+#close_sign{
   position: absolute;
   top: -35px;
   right: -35px;
@@ -265,7 +265,7 @@ div#right_sidebar_id {
   transition: all 0.5s;
 }
 
-.close_sign:hover{
+#close_sign:hover{
   background: red;
   transform: scale(1.25);
 }
