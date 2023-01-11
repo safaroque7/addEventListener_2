@@ -243,6 +243,7 @@ div#right_sidebar_id {
 
 .ad_box_close{
   position: relative;
+  max-width: 72%;
 }
 
 .ad_box{}
